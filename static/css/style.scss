@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-primary: #FF69B4;
+    --color-secondary: #FFD9EC;
+    --color-primary-title: #E4EEF1;
+    --color-secondary-text: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#headerContainer {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2%;
+}
+
+#logoContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2%;
+}
+
+#logoContainer img {
+    height: 100px;
+}
+
+#logoContainer h1 {
+    color: var(--color-primary-title);
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#navContainer {
+    display: flex;
+    width: 100%;
+    gap: 10%;
+}
+
+#navContainer a {
+    text-decoration: none;
+    color: var(--color-primary-title);
+    font-size: 28px;
+}
+
+#informativeContainerOne,
+#informativeContainerTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    gap: 5%;
+}
+
+#informativeContainerOne {
+    background-color: var(--color-secondary);
+}
+
+#informativeContainerOne img {
+    width: 365px;
+}
+
+#informativeContainerOne p {
+    font-size: 25px;
+    color: var(--color-secondary-text);
+    width: 50%;
+}
+
+#informativeContainerTwo {
+    background-color: var(--color-primary);
+}
+
+#informativeContainerTwo img {
+    width: 421px;
+    height: 234px;
+}
+
+#informativeContainerTwo p {
+    font-size: 25px;
+    color: var(--color-primary-title);
+    width: 50%;
+}
+
+#preventionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secondary);
+    height: 422px;
+    gap: 4%;
+}
+
+#preventionContainer img {
+    width: 250px;
+    height: 250px;
+}
+
+#footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-primary);
+    padding: 1% 2%;
+}
+
+#sociaisContainer {
+    display: flex;
+    gap: 15%;
+}
+
+#sociaisContainer img {
+    width: 58px;
+}
+
+#infosContainer {
+    color: var(--color-primary-title);
+    text-align: center;
+}
